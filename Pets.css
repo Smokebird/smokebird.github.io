@@ -1,6 +1,8 @@
     
 body{
    text-align:center;
+   background-color:#101010;
+   color:#99FFFF;
 }
 a:link{color:#00FF00;}
 a:active{color:#00FF00;}

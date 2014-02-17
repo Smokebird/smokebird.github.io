@@ -1,17 +1,18 @@
 h1{
     text-align:center;
-    width-30%;
+    width:30%;
 }
 
 p{
     text-align:center;
-    width-30%;
+    width:30%;
 }
 
 li{
     text-align:center;
-    width 30%;
+    width:30%;
 }
 img{
     float:left;
+    width:35%
 }

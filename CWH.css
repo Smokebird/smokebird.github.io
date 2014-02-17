@@ -5,4 +5,7 @@ background-repeat:no-repeat;
 color:#696969;
 }
 
-a:visited{color:#1E90FF; text-decoration:none;}
+a:visited{
+    color:#1E90FF; 
+    text-decoration:none;
+}

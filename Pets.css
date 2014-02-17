@@ -5,6 +5,6 @@ body{
    color:#99FFFF;
 }
 a:link{color:#00FF00;}
-a:active{color:#00FF00;}
+a:visted{color:#00FFCC;}
 a:hover{color:#0033FF;}
 a:active{color:#00FF66;}

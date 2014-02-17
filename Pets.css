@@ -3,7 +3,7 @@ body{
     
     -webkit-border-image:url("http://doblelol.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg") 30 30;
     -o-border-image:url("http://dobleleo.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg") 30 30;
-    border-image:url("http://doblelol.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg") 30 30;
+    border-image:url("http://doblelol.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg");
     border-image-repeat:
     
 }

@@ -1,18 +1,21 @@
 h1{
-    position:absolute;
+    text-align:center;
     width:30%;
 }
 
 p{
-    position:absolute;
+    text-align:center;
     width:30%;
 }
 
 li{
-    position:absolute;
+    text-align:center;
     width:30%;
 }
-img{
-    ;
+body{
+    -webkit-border-image:url("doblelol.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg") 30 30;
+    -o-border-image:url("dobleleo.com/thumbs/cute-dog-borders-gunny_4604910358692898.jpg") 30 30;
+    border-image:url("doblelol.com/thumbs/dute-dog-borders-gunny_46091034862898.jpg") 30 30;
+    border-image-repeat:
     
 }

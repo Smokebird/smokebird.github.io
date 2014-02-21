@@ -23,10 +23,15 @@ html{
 
 #main{
     background-color:#1E90FF;
+    float:left;
+    width:500px;
+    
 }
 
 #sidebar{
     background-color:#20B2AA;
+    float:right;
+    width:250px;
 }
 
 #footer{

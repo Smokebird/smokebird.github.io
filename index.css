@@ -1,5 +1,7 @@
-.ida{
-    columsn:200 px 2;
-    -webkit-columns:200px 2;
-    -moz-columns:200px 2;
+body,
+html{
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#a7a09a;
 }

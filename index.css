@@ -32,6 +32,7 @@ html{
     background-color:#0000CD;
     float:right;
     width:250px;
+    a:link{color:#FFFFFF;}
 }
 
 #footer{

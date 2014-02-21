@@ -29,11 +29,12 @@ html{
 }
 
 #sidebar{
-    background-color:#20B2AA;
+    background-color:#0000CD;
     float:right;
     width:250px;
 }
 
 #footer{
+    clear:both;
     background-color:000000;
 }

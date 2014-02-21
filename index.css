@@ -40,5 +40,17 @@ html{
     background-color:000000;
 }
 
+#nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nave li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
 a:link{color:#FFFFFF;}
 a:visted{color:#00FF00;}

@@ -3,5 +3,32 @@ html{
     margin:0;
     padding:0;
     color:#000;
-    background:#a7a09a;
+    background-color:#0000CD;
+}
+
+#wrap{
+    width:750px;
+    margin:0 auto;
+    background-color:#0000cd;
+}
+
+#header{
+    backgroun-color:#00BFFF;
+}
+
+#nav{
+    background-color:#00BFFF;
+
+}
+
+#main{
+    background-color:#1E90FF;
+}
+
+#sidebar{
+    background-color:#20B2AA;
+}
+
+#footer{
+    background-color:000000;
 }

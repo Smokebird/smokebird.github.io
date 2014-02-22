@@ -36,7 +36,7 @@ html{
 }
 
 #footer{
-    clear:both;
+   /* clear:both;*/
     background-color:000000;
 }
 

@@ -23,14 +23,14 @@ html{
 
 .main{
     background-color:#1E90FF;
-    float:left;
+    /*float:left;*/
     width:500px;
     
 }
 
 .sidebar{
     background-color:#0000CD;
-    float:right;
+    /*float:right;*/
     width:250px;
     a:link{color:#FFFFFF;}
 }

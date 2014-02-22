@@ -52,5 +52,16 @@ html{
     padding:0;
 }
 
+
 a:link{color:#FFFFFF;}
 a:visted{color:#00FF00;}
+
+@media (max-sidth: 480px){
+    body{
+	font-size: 20px;
+	}
+
+    .hidden-phone {
+	display: block;
+}
+}

@@ -12,11 +12,11 @@ html{
     background-color:#0000cd;
 }*/
 
-#header{
+.header{
     backgroun-color:#00BFFF;
 }
 
-#nav{
+.nav{
     background-color:#00BFFF;
 
 }
@@ -35,18 +35,18 @@ html{
     a:link{color:#FFFFFF;}
 }
 
-#footer{
+.footer{
    /* clear:both;*/
     background-color:000000;
 }
 
-#nav ul {
+.nav ul {
     margin:0;
     padding:0;
     list-style:none;
 }
 
-#nave li{
+.nave li{
     display:inline;
     margin:0;
     padding:0;

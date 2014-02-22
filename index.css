@@ -56,7 +56,7 @@ html{
 a:link{color:#FFFFFF;}
 a:visted{color:#00FF00;}
 
-@media (max-sidth: 480px){
+@media (max-width: 480px){
     body{
 	font-size: 20px;
 	}

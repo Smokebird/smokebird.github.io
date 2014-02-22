@@ -6,11 +6,11 @@ html{
     background-color:#0000CD;
 }
 
-#wrap{
+/*#wrap{
     width:750px;
     margin:0 auto;
     background-color:#0000cd;
-}
+}*/
 
 #header{
     backgroun-color:#00BFFF;
@@ -24,14 +24,14 @@ html{
 .main{
     background-color:#1E90FF;
     /*float:left;*/
-    width:500px;
+   /* width:500px;*/
     
 }
 
 .sidebar{
     background-color:#0000CD;
     /*float:right;*/
-    width:250px;
+    /*width:250px;*/
     a:link{color:#FFFFFF;}
 }
 

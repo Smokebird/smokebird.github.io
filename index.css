@@ -21,14 +21,14 @@ html{
 
 }
 
-#main{
+#floater1{
     background-color:#1E90FF;
     float:left;
     width:500px;
     
 }
 
-#sidebar{
+#floater2{
     background-color:#0000CD;
     float:right;
     width:250px;

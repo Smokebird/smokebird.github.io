@@ -23,15 +23,15 @@ html{
 
 .floater1{
     background-color:#1E90FF;
-    float:left;
-    width:500px;
+    /*float:left;
+    width:500px;*/
     
 }
 
 .floater2{
     background-color:#0000CD;
-    float:right;
-    width:250px;
+   /* float:right;
+    width:250px;*/
     a:link{color:#FFFFFF;}
 }
 

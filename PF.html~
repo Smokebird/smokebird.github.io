@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<form name="myForm">Enter Number:</form>
+<form name="myForm"></form>
 <button>Calculate</button>
 <script type="text/javascript" src="jshello.js"></script>
 </body>

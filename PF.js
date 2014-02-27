@@ -3,10 +3,10 @@ PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
     i=2
-    while(i<=x){
+    while(i<x){
 	if(x%i==0){
 	    z=2;
-	    while(z<=i){
+	    while(z<i){
 		if(i%z==0){
 		    if(i==z){
 			z=i;

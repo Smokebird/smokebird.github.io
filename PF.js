@@ -2,18 +2,20 @@
 PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
-    i=2
+    i=1
     while(i<x){
 	if(x%i==0){
-	    z=2;
+	    z=1;
 	    while(z<i){
 		if(i%z==0){
 		    if(i==z){
 			z=i;
-			i++;
+			i=i++
 		    }
 		}
+		z=z++
 	    }
+	    i=i++
 	}
     }
     console.log(z) /*only writes to javascript console not page"*/

@@ -1,7 +1,7 @@
 
 PFF = function(form){
     var x = form.inputbox.value
-    x = math.floor(x/2)
+    x = Math.floor(x/2)
     while(i<=x){
 	i = 2;
 	if(x%i==0){

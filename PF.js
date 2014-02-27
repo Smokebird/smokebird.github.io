@@ -5,9 +5,14 @@ PFF = function(form){
     i=2
     while(i<=x){
 	if(x%i==0){
-	    if(i%i=0){
-		z=i;
-		i++;
+	    z=2;
+	    while(z<=i){
+		if(i%z=0){
+		    if(i==z){
+			z=i;
+			i++;
+		    }
+		}
 	    }
 	}
     }

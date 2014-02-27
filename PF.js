@@ -2,11 +2,12 @@
 PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
+    i=2
     while(i<=x){
-	i = 2;
 	if(x%i==0){
 	    if(i%i=0){
 		z=i;
+		i++;
 	    }
 	}
     }

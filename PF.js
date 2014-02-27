@@ -7,7 +7,7 @@ PFF = function(form){
 	if(x%i==0){
 	    z=2;
 	    while(z<=i){
-		if(i%z=0){
+		if(i%z==0){
 		    if(i==z){
 			z=i;
 			i++;

@@ -2,8 +2,10 @@
 PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
+    console.log(x)
     i=1
     while(i<x){
+	console.log(i)
 	if(x%i==0){
 	    z=1;
 	    while(z<i){
@@ -17,6 +19,7 @@ PFF = function(form){
 	    }
 	    i=i++
 	}
+	i=i++;
     }
     console.log(z) /*only writes to javascript console not page"*/
     /*document.write(x) /*writes five but gets ride of everthing else on the screen*/

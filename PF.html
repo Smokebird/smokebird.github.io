@@ -8,11 +8,12 @@
 
 <body>
 <!--<form name="myForm">Enter Number:</form>-->
-Enter Number: <input type="text"/><br />
+<form name="myform" action="" method="get">Enter a Number:<br>
 <!--Enter Number:
 <input type="text"/><br /> not important-->
 
-<button onclick="PFF()">Calculate</button>
+<button onclick="PFF(this.form)">Calculate</button>
+</form>
 <div id="temp1"></div>
 <script type="text/javascript" src="PF.js"></script>
 </body>

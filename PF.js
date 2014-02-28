@@ -3,12 +3,12 @@ PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
     console.log(x)
-    i=2
+    var i = 2
     while(i<x){
 	console.log(i)
 	if(x%i==0){
 	    console.log(i)
-	    z=1;
+	   var  z=1;
 	    while(z<i){
 		console.log(z)
 		if(i%z==0){

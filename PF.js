@@ -13,7 +13,7 @@ PFF = function(form){
 		if(j%i==0){
 		    console.log(j)
 		    console.log(i)
-		    if(J==i){
+		    if(j==i){
 			console.log(x)
 			console.log(i)
 			console.log(z)

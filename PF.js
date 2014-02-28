@@ -5,6 +5,7 @@ PFF = function(form){
     console.log(x)
     for(var i =2; i< x; i++){
 	if(x%i==0){
+	    console.log(hi)
 	    for(var j=2; j<i; j++){
 		console.log("for")
 		console.log(j)

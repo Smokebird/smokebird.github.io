@@ -1,7 +1,7 @@
 
 PFF = function(form){
     var x = form.inputbox.value
-    x = Math.floor(x/2);
+   // x = Math.floor(x/2);
     console.log(x)
     var primefacotrs = new Array();
     var iprime = true

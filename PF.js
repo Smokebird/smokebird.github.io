@@ -3,7 +3,7 @@ PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
     console.log(x)
-    for(var i =2; i< x+1; i++){
+    for(var i =2; i< x; i++){
 	if(x%i==0){
 	    console.log(x)
 	    console.log(i)

@@ -6,6 +6,7 @@ PFF = function(form){
    // var i = 2
     for(var i =2; i<x; i++){
 	console.log(i)
+	console.log(x)
 	if(x%i==0){
 	    console.log(i)
 	   var  z=1;

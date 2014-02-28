@@ -24,7 +24,7 @@ PFF = function(form){
 	    i=i++
 	} //
 	else{
-	i=i=1;
+	i=i+1;
 	console.log(i)
 	}
     } //while

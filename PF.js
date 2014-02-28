@@ -15,6 +15,7 @@ PFF = function(form){
 	    }
 	    if(iprime==true){
 		primefacotrs.push(i)
+		iprime==false
 	    }
 	    for(var a=2; a < x/i ; a++){
 		if(a%i==0){
@@ -23,6 +24,7 @@ PFF = function(form){
 	    }
 	    if(iaprime2==true){
 		primefacotrs.push(x/i)
+		iaprime2==false
 		    }
 	    
 		}

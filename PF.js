@@ -7,11 +7,14 @@ PFF = function(form){
     while(i<x){
 	console.log(i)
 	if(x%i==0){
-	    
+	    console.log(i)
 	    z=1;
 	    while(z<i){
+		console.log(z)
 		if(i%z==0){
+		    
 		    if(i==z){
+			console.log(z)
 			z=i;
 			i=i++
 		    } // if i == z
@@ -20,7 +23,10 @@ PFF = function(form){
 	    } // while z <i
 	    i=i++
 	} //
+	else{
 	i=i++;
+	console.log(i)
+	}
     } //while
     console.log(z) /*only writes to javascript console not page"*/
     /*document.write(x) /*writes five but gets ride of everthing else on the screen*/

@@ -24,12 +24,9 @@ PFF = function(form){
 	    if(iaprime2=true){
 		primefacotrs.push(x/i)
 		    }
-	if(iprime=true && iaprime2=true)
 	    
 		}
 	    }
-	}
-    }
    // console.log(z) /*only writes to javascript console not page"*/
     /*document.write(x) /*writes five but gets ride of everthing else on the screen*/
     y=document.getElementById("temp1") /*append child does not work*/

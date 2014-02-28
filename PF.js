@@ -5,8 +5,15 @@ PFF = function(form){
     console.log(x)
     for(var i =2; i< x; i++){
 	if(x%i==0){
-	    console.log(x)
-	    console.log(i)
+	    for(var j=2; j<i; j++){
+		if(j%i==0){
+		    if(J==i){
+			console.log(x)
+			console.log(i)
+			console.log(z)
+		    }
+		}
+	    }
 	}
     }
    // console.log(z) /*only writes to javascript console not page"*/

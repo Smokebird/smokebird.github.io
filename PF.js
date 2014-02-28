@@ -3,20 +3,29 @@ PFF = function(form){
     var x = form.inputbox.value
     x = Math.floor(x/2);
     console.log(x)
+    var primefacotrs = new Array();
+    var iprime = true
+    var iaprime2 = true
     for(var i =2; i< x; i++){
 	if(x%i==0){
-	    console.log("hi")
-	    for(var j=2; j<i+1; j++){
-		console.log("for")
-		console.log(j)
-		console.log(i)
-		if(j%i==0){
-		    console.log(j)
-		    console.log(i)
-		    if(j==i){
-			console.log(i)
-			console.log(j)
+	    for(var z=2; z<i; z++){
+		if(z%i==0){
+		    iprime=false
+		}
+	    }
+	    if(iprime=true){
+		primefacotrs.push(i)
+	    }
+	    for(var a=2; a < x/i ; a++){
+		if(a%i==0){
+		    iaprime2=false
+		}
+	    }
+	    if(iaprime2=true){
+		primefacotrs.push(x/i)
 		    }
+	if(iprime=true && iaprime2=true)
+	    
 		}
 	    }
 	}

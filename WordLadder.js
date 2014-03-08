@@ -9,4 +9,8 @@ WLF = function(form){
     var y
     y=document.getElementById("temp1")
     y.innerHTML=fisrtWord
+    var x
+    x=document.getElementById("temp1")
+    x.innerHTML=5
+			
 }

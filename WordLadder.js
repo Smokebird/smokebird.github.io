@@ -10,7 +10,7 @@ WLF = function(form){
     y=document.getElementById("temp1")
     y.innerHTML=firstWord
     var x
-    x=document.getElementById("temp1")
+    x=document.getElementById("temp2")
     x.innerHTML=lastWord
 			
 }

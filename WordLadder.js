@@ -4,7 +4,7 @@ WLF = function(form){
     var firstWord = form.inputbox1.value // adding quets to eat only returns what is in the quates
     var lastWord = form.inputbox2.value
    // var FWwc = 0 this does not work still is undefined
-    FWwc  = Number(firstWord.lenght);
+    FWwc  = Number(String(firstWord.lenght));
     console.log(FWwc)
     var LWwc = lastWord.lenght
     console.log(LWwc)

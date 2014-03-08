@@ -1,9 +1,10 @@
 /*this is a JS file*/
 
 WLF = function(form){
-    var firstWord = "form.inputbox1.value"
+    var firstWord = form.inputbox1.value // adding quets to eat only returns what is in the quates
     var lastWord = form.inputbox2.value
-    var FWwc  = firstWord.lenght;
+    var FWwc = 0
+    FWwc  = firstWord.lenght;
     console.log(FWwc)
     var LWwc = lastWord.lenght
     console.log(LWwc)

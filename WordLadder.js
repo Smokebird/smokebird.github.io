@@ -5,4 +5,8 @@ WLF = function(form){
     var lastWord = form.inputbox2.value
     console.log(firstWord)
     console.log(lastWord)
+
+    var y
+    y=document.getElementById("temp1")
+    y.innerHTML=fisrtWord
 }

@@ -11,6 +11,7 @@ WLF = function(form){
     console.log(typeof FWwc)
     var LWwc = lastWord.lenght
     console.log(LWwc)
+    console.log(typeof LWwc)
     console.log(firstWord)
     console.log(lastWord)
     

@@ -6,10 +6,10 @@ WLF = function(form){
     console.log(typeof firstWord)
     console.log(typeof lastWord)
    // var FWwc = 0 this does not work still is undefined
-    FWwc  = Number(firstWord.lenght)// this does not work returns Nan not a real number ;
+    FWwc  = Number(firstWord.length)// this does not work returns Nan not a real number ;
     console.log(FWwc)
     console.log(typeof FWwc)
-    var LWwc = lastWord.lenght
+    var LWwc = lastWord.length
     console.log(LWwc)
     console.log(typeof LWwc)
     console.log(firstWord)

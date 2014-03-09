@@ -1,7 +1,7 @@
 /*this is a JS file*/
 
 WLF = function(form){
-    var firstWord = string(form.inputbox1.value) // adding quets to eat only returns what is in the quates
+    var firstWord = String(form.inputbox1.value) // adding quets to eat only returns what is in the quates
     var lastWord = form.inputbox2.value
     console.log(typeof firstWord)
     console.log(typeof lastWord)

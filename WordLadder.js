@@ -5,6 +5,7 @@ WLF = function(form){
     var firstWord = (form.inputbox1.value) 
     var lastWord = form.inputbox2.value
     var numLetters =form.numLetters.value
+    var numLetters = Number(numLetters)
     console.log(typeof numLetters)
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length

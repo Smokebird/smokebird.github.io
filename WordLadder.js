@@ -15,7 +15,7 @@ WLF = function(form){
 	    }
 	else{
 	    console.log("words do not match number choosen")
-	    y+document.getElementById("temp1")
+	    y=document.getElementById("temp1")
 	    y.innerHTML="The number letters choosen do match the number of letters in the word choosen. Please change one or the either so that they match"
 	    }
 	}

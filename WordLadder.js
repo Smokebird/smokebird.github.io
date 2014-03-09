@@ -3,9 +3,12 @@
 WLF = function(form){
     var firstWord = string(form.inputbox1.value) // adding quets to eat only returns what is in the quates
     var lastWord = form.inputbox2.value
+    console.log(typeof firstWord)
+    console.log(typeof lastWord)
    // var FWwc = 0 this does not work still is undefined
     FWwc  = Number(firstWord.lenght)// this does not work returns Nan not a real number ;
     console.log(FWwc)
+    console.log(typeof FWwc)
     var LWwc = lastWord.lenght
     console.log(LWwc)
     console.log(firstWord)

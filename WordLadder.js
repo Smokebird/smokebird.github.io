@@ -4,8 +4,7 @@ WLF = function(form){
     var y
     var firstWord = (form.inputbox1.value) 
     var lastWord = form.inputbox2.value
-    console.log(typeof firstWord)
-    console.log(typeof lastWord)
+    var numLetters =form.numLetters.value
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length
     if (FWwc == LWwc){
@@ -13,9 +12,9 @@ WLF = function(form){
 	}
     else{
 	console.log("not same lenght")
-	 var y = "Please choose two words of equal langth."
+	 var y 
 	y=document.getElementById("temp1")
-	y.innerHTML=firstWord
+	y.innerHTML="Please chosse two words of equal length"
 	}
    /* var x
     x=document.getElementById("temp2")

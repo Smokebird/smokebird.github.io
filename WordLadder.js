@@ -1,12 +1,7 @@
 /*this is a JS file*/
 
 StackClass = function(str){
-console.log(typeof str)
-console.log(str)
 this.stackarray = new Array()
-this.x = str
-console.log(typeof this.x)
-console.log(this.x)
 /*this.push = function(){
     stackarray.push(this.x)
     console.log(this.x)
@@ -29,7 +24,7 @@ WLF = function(form){
     var numLetters = Number(numLetters)
     console.log(typeof firstWord)
     z = new StackClass(firstWord)
-    console.log( z.push())
+    console.log( z.push(firstWord))
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length
     if (FWwc == LWwc){

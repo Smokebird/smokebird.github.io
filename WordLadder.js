@@ -13,7 +13,7 @@ console.log(this.x)
 }
 StackClass.prototype.push = function(str){
     stackarray.push(str)
-    return 
+    return stackarray
 }
 
 WLF = function(form){

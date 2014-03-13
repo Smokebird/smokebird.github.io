@@ -4,10 +4,10 @@ Stackclass = function(str){
 console.log(str)
 var stackarray = new Array()
 this.x = str
-console.log(x)
-this.push = function(x){
-    stackarray.push(x)
-    console.log(x)
+console.log(this.x)
+this.push = function(this.x){
+    stackarray.push(this.x)
+    console.log(this.x)
     console.log(stackarray)
 }
 }

@@ -20,6 +20,7 @@ StackClass.prototype.cole = function(stack){
 
 QueueClass = function(){
     this.queuearray = new Array()
+    console.log(typeof this.queuearray)
 }
 
 QueueClass.prototype.queue = function(stack){

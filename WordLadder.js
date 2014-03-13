@@ -75,12 +75,12 @@ WLF = function(form){
 		
 	    }
 	    if(FWwc == 4){
-		for(var i=0; i < fourLetterWords.lenght){
+		for(var i=0; i < fourLetterWords.lenght; i++){
 
 		    }
 		}
 	    if(FWwc == 5){
-		for(var i=o; i < fiveLetterWords.lenght){
+		for(var i=o; i < fiveLetterWords.lenght: i++){
 
 		}
 		}

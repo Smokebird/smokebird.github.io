@@ -16,7 +16,7 @@ WLF = function(form){
     var lastWord = form.inputbox2.value
     var numLetters =form.numLetters.value
     var numLetters = Number(numLetters)
-    var z
+    z = new Stackclass
     console.log(z.push(firstWord))
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length

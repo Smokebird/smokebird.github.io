@@ -2,7 +2,7 @@
 
 StackClass = function(str){
 console.log(str)
-this.stackarray = new Array()
+stackarray = new Array()
 this.x = str
 console.log(this.x)
 /*this.push = function(){
@@ -12,8 +12,8 @@ console.log(this.x)
 }*/
 }
 StackClass.prototype.push = function(str){
-    this.stackarray.push(str)
-    return stackarray
+    stackarray.push(str)
+    return 
 }
 
 WLF = function(form){

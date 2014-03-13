@@ -72,9 +72,12 @@ WLF = function(form){
 	    if(FWwc ==3){
 		console.log(typeof this.queuearray)
 		for(var c=0; c < Queue.queuearray.length; c++){
+		    console.log(c)
 		   f=Queue.dequeue
 		    for(var i=0;  i < threeLetterWords.lenght; i++){
+			console.log(i)
 			    for(var j=0; j< 2; j++){
+				console.log(j)
 				e=f.pop()
 				var errorcount = 0
 				if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1)){

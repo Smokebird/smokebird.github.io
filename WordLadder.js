@@ -24,7 +24,7 @@ QueueClass = function(){
 
 QueueClass.prototype.queue = function(stack){
     this.queuearray.unshift()
-    return queuearray
+    return this.queuearray
 }
 
 QueueClass.prototype.dequeue = function(stack){

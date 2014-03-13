@@ -5,7 +5,7 @@ console.log(str)
 var stackarray = new Array()
 this.x = str
 console.log(this.x)
-this.push = function(this.x){
+this.push = function(){
     stackarray.push(this.x)
     console.log(this.x)
     console.log(stackarray)

@@ -5,6 +5,7 @@ console.log(typeof str)
 console.log(str)
 this.stackarray = new Array()
 this.x = str
+console.log(typeof this.x)
 console.log(this.x)
 /*this.push = function(){
     stackarray.push(this.x)

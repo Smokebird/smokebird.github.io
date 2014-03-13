@@ -28,7 +28,7 @@ QueueClass.prototype.queue = function(stack){
 }
 
 QueueClass.prototype.dequeue = function(stack){
-   a=thisqueuearray.shift()
+   a=this.queuearray.shift()
     return a
 }
 SetClass = function(){

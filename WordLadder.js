@@ -75,7 +75,7 @@ WLF = function(form){
 			    for(var j=0; j< 2; j++){
 				e=f.pop()
 				var errorcount = 0
-				if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1){
+				if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1)){
 				    errorcount=errorcount+1
 				}
 				   

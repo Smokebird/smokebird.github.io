@@ -1,6 +1,7 @@
 /*this is a JS file*/
 
 StackClass = function(str){
+console.log(typeof str)
 console.log(str)
 this.stackarray = new Array()
 this.x = str

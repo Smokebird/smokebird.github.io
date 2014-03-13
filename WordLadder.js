@@ -1,6 +1,7 @@
 /*this is a JS file*/
 
 WLF = function(form){
+    console.log(threeLetterWords)
     var y
     var firstWord = (form.inputbox1.value) 
     var lastWord = form.inputbox2.value

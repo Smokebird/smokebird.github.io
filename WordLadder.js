@@ -68,7 +68,7 @@ WLF = function(form){
 	    conole.log(queue)
 	    if(FWwc ==3){
 		for(var i=0;  i < threeLetterWords.lenght; i++){
-		    for(var j=0; j< 3){
+		    for(var j=0; j< 3; j++){
 			// use substring here
 			}
 		    }

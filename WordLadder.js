@@ -14,6 +14,7 @@ console.log(this.x)
 }*/
 }
 StackClass.prototype.push = function(str){
+    console.log(typeof str)
     this.stackarray.push(str)
     console.log(this.stackarray)
     return this.stackarray

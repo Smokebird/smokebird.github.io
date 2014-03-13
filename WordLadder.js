@@ -1,17 +1,20 @@
 /*this is a JS file*/
 
-Stackclass = function(str){
+StackClass = function(str){
 console.log(str)
 var stackarray = new Array()
 this.x = str
 console.log(this.x)
-this.push = function(){
+/*this.push = function(){
     stackarray.push(this.x)
     console.log(this.x)
     console.log(stackarray)
+}*/
 }
+StackClass.prototype.push = function(str){
+    stackarray.push(str)
+    return stackarray
 }
-
 
 WLF = function(form){
     //console.log(threeLetterWords) this works
@@ -20,7 +23,7 @@ WLF = function(form){
     var lastWord = form.inputbox2.value
     var numLetters =form.numLetters.value
     var numLetters = Number(numLetters)
-    z = new Stackclass(firstWord)
+    z = new StackClass(firstWord)
     console.log( z.push())
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length

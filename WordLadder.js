@@ -1,10 +1,14 @@
 /*this is a JS file*/
 
 Stackclass = function(str){
+console.log(str)
 var stackarray = new Array()
 this.x = str
+console.log(x)
 this.push = function(x){
     stackarray.push(x)
+    console.log(x)
+    console.log(stackarray)
 }
 }
 

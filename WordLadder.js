@@ -80,7 +80,7 @@ WLF = function(form){
 		    }
 		}
 	    if(FWwc == 5){
-		for(var i=o; i < fiveLetterWords.lenght: i++){
+		for(var i=o; i < fiveLetterWords.lenght; i++){
 
 		}
 		}

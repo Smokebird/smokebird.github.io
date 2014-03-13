@@ -63,7 +63,7 @@ WLF = function(form){
 	    set = new SetClass(firstWord)
 	    console.log("words match number choosen")
 	    stack = new StackClass()
-	    stack.push(firstWord)
+	    console.log(stack.push(firstWord))
 	    console.log(this.stackarray)
 	    Queue = new QueueClass()
 	   console.log(Queue.queue(stack))

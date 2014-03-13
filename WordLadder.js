@@ -2,7 +2,7 @@
 
 StackClass = function(str){
 console.log(str)
-this stackarray = new Array()
+this.stackarray = new Array()
 this.x = str
 console.log(this.x)
 /*this.push = function(){

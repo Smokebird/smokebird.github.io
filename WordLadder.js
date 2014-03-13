@@ -8,8 +8,8 @@ StackClass.prototype.push = function(str){
     return this.stackarray
 }
 
-StackClass.prototype.shift = function(str){
-    x=this.stackarray.pop(str)
+StackClass.prototype.pop = function(){
+    x=this.stackarray.pop()
     return x
 }
 
@@ -69,13 +69,26 @@ WLF = function(form){
 	   console.log(Queue.queue(stack))
 	    console.log(this.queuearray)
 	    if(FWwc ==3){
-		for(var i=0;  i < threeLetterWords.lenght; i++){
-		    for(var j=0; j< 3; j++){
-			// use substring here
+		for(var c=0; c < this.queuearray.length){
+		   f=fQueue.dequeue
+		    for(var i=0;  i < threeLetterWords.lenght; i++){
+			    for(var j=0; j< 2; j++){
+				e=f.pop()
+				var errorcount = 0
+				if(e.substring(j,j+1) != threeLetterWords[i].substing(j,j+1){
+				    errorcount=errorcount+1
+				}
+				   
 			}
+				if(errorcount == 1){
+				    f.push(e)
+				    console.log(f.push(threeLetterWords[i])
+				    }
 		    }
 		
 	    }
+		}
+
 	    if(FWwc == 4){
 		for(var i=0; i < fourLetterWords.lenght; i++){
 

@@ -19,7 +19,7 @@ StackClass.prototype.cole = function(stack){
     return clonestack
 }
 
-QueueClass = functin(){
+QueueClass = function(){
     this.queuearray = new Array()
 }
 

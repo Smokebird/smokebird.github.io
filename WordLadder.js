@@ -64,7 +64,8 @@ WLF = function(form){
 	    console.log("words match number choosen")
 	    stack = new StackClass(firstWord)
 	    stack.push(firstWord)
-	    Queue = new QueueClass(stack)
+	    console.log(stack)
+	    Queue = new QueueClass()
 	    Queue.queue(stack)
 	    console.log(Queue)
 	    if(FWwc ==3){

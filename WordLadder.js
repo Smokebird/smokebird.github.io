@@ -69,7 +69,7 @@ WLF = function(form){
 	   console.log(Queue.queue(stack))
 	    console.log(this.queuearray)
 	    if(FWwc ==3){
-		for(var c=0; c < this.queuearray.length){
+		for(var c=0; c < this.queuearray.length; c++){
 		   f=fQueue.dequeue
 		    for(var i=0;  i < threeLetterWords.lenght; i++){
 			    for(var j=0; j< 2; j++){

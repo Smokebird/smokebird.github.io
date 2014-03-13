@@ -5,7 +5,6 @@ this.stackarray = new Array()
 }
 StackClass.prototype.push = function(str){
     this.stackarray.push(str)
-    console.log(this.stackarray)
     return this.stackarray
 }
 
@@ -65,9 +64,9 @@ WLF = function(form){
 	    console.log("words match number choosen")
 	    stack = new StackClass(firstWord)
 	    stack.push(firstWord)
-	    console.log(stack)
 	    queue = new QueueClass(stack)
-	    //console.log(queue)
+	    queue.queue(stack)
+	    console.log(queue)
 	    if(FWwc ==3){
 		for(var i=0;  i < threeLetterWords.lenght; i++){
 		    for(var j=0; j< 3; j++){

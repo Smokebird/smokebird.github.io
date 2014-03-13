@@ -23,12 +23,12 @@ QueueClass = function(){
 }
 
 QueueClass.prototype.queue = function(stack){
-    this.queuearray.unshift()
+    this.queuearray.unshift(stack)
     return this.queuearray
 }
 
 QueueClass.prototype.dequeue = function(stack){
-   a=this.queuearray.shift()
+   a=this.queuearray.shift(stack)
     return a
 }
 SetClass = function(){

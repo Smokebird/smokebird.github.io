@@ -1,13 +1,22 @@
 /*this is a JS file*/
 
+Stackclass = function(){
+var stackarray = new Array()
+
+this.push = function(var x){
+    stackarray.push(x)
+}
+}
+
+
 WLF = function(form){
-    console.log(threeLetterWords)
+    //console.log(threeLetterWords) this works
     var y
     var firstWord = (form.inputbox1.value) 
     var lastWord = form.inputbox2.value
     var numLetters =form.numLetters.value
     var numLetters = Number(numLetters)
-    console.log(typeof numLetters)
+    console.log(z.push(firstWord)
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length
     if (FWwc == LWwc){

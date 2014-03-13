@@ -82,7 +82,7 @@ WLF = function(form){
 			}
 				if(errorcount == 1){
 				    f.push(e)
-				    console.log(f.push(threeLetterWords[i])
+				    console.log(f.push(threeLetterWords[i]))
 				    }
 		    }
 		

@@ -2,7 +2,7 @@
 
 StackClass = function(str){
 console.log(str)
-stackarray = new Array()
+var stackarray = new Array()
 this.x = str
 console.log(this.x)
 /*this.push = function(){
@@ -13,6 +13,7 @@ console.log(this.x)
 }
 StackClass.prototype.push = function(str){
     stackarray.push(str)
+    console.log(stackarray)
     return stackarray
 }
 

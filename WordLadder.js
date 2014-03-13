@@ -62,11 +62,11 @@ WLF = function(form){
 	if(FWwc == numLetters){
 	    set = new SetClass(firstWord)
 	    console.log("words match number choosen")
-	    stack = new StackClass(firstWord)
+	    stack = new StackClass()
 	    stack.push(firstWord)
 	    console.log(this.stackarray)
 	    Queue = new QueueClass()
-	    Queue.queue(stack)
+	   console.log(Queue.queue(stack))
 	    console.log(this.queuearray)
 	    if(FWwc ==3){
 		for(var i=0;  i < threeLetterWords.lenght; i++){

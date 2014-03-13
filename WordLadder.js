@@ -1,18 +1,52 @@
 /*this is a JS file*/
-
-StackClass = function(str){
+/* read Francis J.gaus The myth of Flexible Respons international history  review 23:4(Dec 2001) 847 875*/
+StackClass = function(){
 this.stackarray = new Array()
-/*this.push = function(){
-    stackarray.push(this.x)
-    console.log(this.x)
-    console.log(stackarray)
-}*/
 }
 StackClass.prototype.push = function(str){
-    console.log(typeof str)
     this.stackarray.push(str)
     console.log(this.stackarray)
     return this.stackarray
+}
+
+StackClass.prototype.shift = function(str){
+    x=this.stackarray.pop(str)
+    return x
+}
+
+StackClass.prototype.cole = function(stack){
+    clonestack = this.stackarray
+    return clonestack
+}
+
+QueueClass = functin(){
+    this.queuearray = new Array()
+}
+
+QueueClass.prototype.queue = function(stack){
+    this.queuearray.unshift()
+    return queuearray
+}
+
+QueueClass.prototype.dequeue = function(stack){
+   a=thisqueuearray.shift()
+    return a
+}
+SetClass = function(){
+    setarray = new Array()
+}
+
+SetClass.prototype.add =function(words){
+    setarray.push(words)
+}
+
+SetClass.prototype.contains = function(words){
+    if(words in setarray){
+	return true
+    }
+    else{
+	return false
+}
 }
 
 WLF = function(form){
@@ -22,14 +56,34 @@ WLF = function(form){
     var lastWord = form.inputbox2.value
     var numLetters =form.numLetters.value
     var numLetters = Number(numLetters)
-    console.log(typeof firstWord)
-    z = new StackClass(firstWord)
     console.log( z.push(firstWord))
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length
     if (FWwc == LWwc){
 	if(FWwc == numLetters){
+	    set = new SetClass(firstWord)
 	    console.log("words match number choosen")
+	    stack = new StackClass(firstWord)
+	    queue = new QueueClass(stack)
+	    conole.log(queue)
+	    if(FWwc ==3){
+		for(var i=0;  i < threeLetterWords.lenght){
+		    for(var j=0; j< 3){
+			// use substring here
+			}
+		    }
+		
+	    }
+	    if(FWwc == 4){
+		for(var i=0; i < fourLetterWords.lenght){
+
+		    }
+		}
+	    if(FWwc == 5){
+		for(var i=o; i < fiveLetterWords.lenght){
+
+		}
+		}
 	    }
 	else{
 	    console.log("words do not match number choosen")

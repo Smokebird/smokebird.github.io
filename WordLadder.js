@@ -1,8 +1,8 @@
 /*this is a JS file*/
 
-Stackclass = function(){
+Stackclass = function(str){
 var stackarray = new Array()
-
+this.str = x
 this.push = function(x){
     stackarray.push(x)
 }

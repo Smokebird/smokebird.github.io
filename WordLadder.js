@@ -17,7 +17,7 @@ WLF = function(form){
     var numLetters =form.numLetters.value
     var numLetters = Number(numLetters)
     z = new Stackclass(firstWord)
-    console.log(z.push())
+    console.log( z.push())
     var FWwc  = (firstWord.length)
     var LWwc = lastWord.length
     if (FWwc == LWwc){

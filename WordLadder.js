@@ -81,7 +81,7 @@ WLF = function(form){
 		for(var c=0; c < queue.queuearray.length+1; c++){
 		    console.log(c)
 		    console.log(queue.queuearray.length)
-		    console.log(queue.dequeue)
+		    //console.log(queue.dequeue)
 		    console.log(queue)
 		    console.log(queue.queuearray)
 		  console.log(queue.queuearray.dequeue)
@@ -89,8 +89,8 @@ WLF = function(form){
 		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined
 		   // f=queue.dequeue
 		   // console.log(f)
-
-		    for(var i=0;  i < threeLetterWords.lenght; i++){
+		    console.log(threeLetterWords.length)
+		    for(var i=0;  i < threeLetterWords.length; i++){
 			console.log(i)
 			    for(var j=0; j< 2; j++){
 				console.log(j)

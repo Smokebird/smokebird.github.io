@@ -61,7 +61,12 @@ WLF = function(form){
     var LWwc = lastWord.length
     if (FWwc == LWwc){
 	if(FWwc == numLetters){
-	    set = new SetClass(firstWord)
+	    set = new SetClass()
+	    set.add(firstWord)
+	    conole.log(setarray)
+	    console.log(set.setarray)
+	    console.log(SetClass.setarray)
+	    console.log(set.SetClass.setarray)
 	    console.log("words match number choosen")
 	    stack = new StackClass()
 	    console.log(stack.push(firstWord))

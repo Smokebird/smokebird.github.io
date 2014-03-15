@@ -95,7 +95,7 @@ WLF = function(form){
 		    console.log(threeLetterWords.length)
 		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			console.log(i)
-			e=f.pop
+			e=f.pop()
 			console.log(e)
 			    for(var j=0; j< 2; j++){
 				console.log(j)

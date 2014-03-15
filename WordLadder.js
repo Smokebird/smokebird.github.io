@@ -81,7 +81,7 @@ WLF = function(form){
 		for(var c=0; c < queue.queuearray.length; c++){
 		    console.log(c)
 		    console.log(queue.dequeue)
-		  // console.log(queue.queuearray.dequeue)
+		  console.log(queue.queuearray.dequeue)
 		    f=queue.dequeue
 		    console.log(f)
 

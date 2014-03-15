@@ -33,7 +33,7 @@ QueueClass.prototype.dequeue = function(stack){
     return a
 }
 SetClass = function(){
-   this.setarray = new Array()
+   this.starray = new Array()
 }
 
 SetClass.prototype.add =function(words){

@@ -33,7 +33,7 @@ QueueClass.prototype.dequeue = function(stack){
     return a
 }
 SetClass = function(){
-   this.starray = new Array()
+   this.setarray = new Array()
 }
 
 SetClass.prototype.add =function(words){
@@ -63,8 +63,8 @@ WLF = function(form){
 	if(FWwc == numLetters){
 	    set = new SetClass()
 	    set.add(firstWord)
-	    console.log(this.setarray)
-	    console.log(set.this.setarray)
+	   // console.log(this.setarray) undefined
+	   // console.log(set.this.setarray) can not read
 	    console.log(set.setarray)
 	    console.log(SetClass.setarray)
 	    console.log(set.SetClass.setarray)

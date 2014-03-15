@@ -97,12 +97,13 @@ WLF = function(form){
 			console.log(i)
 			e=f.pop()
 			console.log(e)
-			    for(var j=0; j< 2; j++){
+			var errorcount = 0
+			    for(var j=0; j< 3; j++){
 				console.log(j)
 				//e=f.pop()
 				//console.log(f.pop())
 				//console.log(e)
-				var errorcount = 0
+				
 				if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1)){
 				    errorcount=errorcount+1
 				}

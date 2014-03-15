@@ -98,7 +98,7 @@ WLF = function(form){
 			e=f.pop()
 			console.log(e)
 			var errorcount = 0
-			    for(var j=0; j< 3; j++){
+			    for(var j=0; j< 2; j++){
 				console.log(j)
 				//e=f.pop()
 				//console.log(f.pop())

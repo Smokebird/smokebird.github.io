@@ -85,7 +85,7 @@ WLF = function(form){
 		    
 		    console.log(queue)
 		    console.log(queue.queuearray)
-		  console.log(queue.queuearray.dequeue)
+		  console.log(queue.queuearray.dequeue())
 		    console.log(queue.queuearray)
 		    //console.log(queuearray.dequeue) queuearray is not defined
 		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined

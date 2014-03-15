@@ -63,7 +63,7 @@ WLF = function(form){
 	if(FWwc == numLetters){
 	    set = new SetClass()
 	    set.add(firstWord)
-	    conole.log(setarray)
+	    console.log(setarray)
 	    console.log(set.setarray)
 	    console.log(SetClass.setarray)
 	    console.log(set.SetClass.setarray)

@@ -77,11 +77,11 @@ WLF = function(form){
 	    console.log(queue.queuearray)
 	    console.log(typeof  queue.queuearray)
 	    if(FWwc ==3){
-		console.log(typeof this.queuearray)
-		for(var c=0; c < Queue.queuearray.length; c++){
+		
+		for(var c=0; c < queue.queuearray.length; c++){
 		    console.log(c)
 		    
-		   console.log(Queue.queuearray.dequeue)
+		   console.log(queue.queuearray.dequeue)
 		    console.log(f)
 		    for(var i=0;  i < threeLetterWords.lenght; i++){
 			console.log(i)

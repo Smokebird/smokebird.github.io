@@ -66,14 +66,15 @@ WLF = function(form){
 	   // console.log(this.setarray) undefined
 	   // console.log(set.this.setarray) can not read
 	    console.log(set.setarray)
-	    console.log(SetClass.setarray)
-	    console.log(set.SetClass.setarray)
+	   // console.log(SetClass.setarray) undefined
+	   // console.log(set.SetClass.setarray) can not read
 	    console.log("words match number choosen")
 	    stack = new StackClass()
-	    console.log(stack.push(firstWord))
-	    console.log(this.stackarray)
-	    Queue = new QueueClass()
-	   console.log(Queue.queue(stack))
+	    stack.push(firstWord)
+	    console.log(stack.stackarray)
+	    queue = new QueueClass()
+	   queue.queue(stack)
+	    console.log(queue.queuearray)
 	    console.log(typeof  Queue.queuearray)
 	    if(FWwc ==3){
 		console.log(typeof this.queuearray)

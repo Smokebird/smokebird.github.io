@@ -87,7 +87,7 @@ WLF = function(form){
 		  console.log(queue.queuearray.dequeue)
 		    //console.log(queuearray.dequeue) queuearray is not defined
 		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined
-		   // f=queue.dequeue
+		    f=queue.dequeue
 		   // console.log(f)
 		    console.log(threeLetterWords.length)
 		    for(var i=0;  i < threeLetterWords.length; i++){
@@ -111,12 +111,12 @@ WLF = function(form){
 		}
 
 	    if(FWwc == 4){
-		for(var i=0; i < fourLetterWords.lenght; i++){
+		for(var i=0; i < fourLetterWords.length; i++){
 
 		    }
 		}
 	    if(FWwc == 5){
-		for(var i=o; i < fiveLetterWords.lenght; i++){
+		for(var i=o; i < fiveLetterWords.length; i++){
 
 		}
 		}

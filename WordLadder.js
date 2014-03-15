@@ -78,47 +78,51 @@ WLF = function(form){
 	    console.log(typeof  queue.queuearray)
 	    if(FWwc ==3){
 		if(firstWord != lastWord){
-		for(var c=0; c < queue.queuearray.length+1; c++){
-		    console.log(c)
-		    console.log(queue.queuearray.length)
-		    //console.log(queue.dequeue)
+		    for(var c=0; c < queue.queuearray.length+1; c++){
+			console.log(c)
+			console.log(queue.queuearray.length)
+			//console.log(queue.dequeue)
 		    
-		    console.log(queue)
-		    console.log(queue.queuearray)
-		 // console.log(queue.queuearray.dequeue())
-		    console.log(queue.queuearray)
-		    //console.log(queuearray.dequeue) queuearray is not defined
-		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined
-		    f=queue.dequeue()
-		    console.log(f)
-		    console.log(typeof f)
-		    g=f.pop()
-		    e=g.clone
-		    console.log(threeLetterWords.length)
-		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
-			console.log(i)
+			console.log(queue)
+			console.log(queue.queuearray)
+			// console.log(queue.queuearray.dequeue())
+			console.log(queue.queuearray)
+			//console.log(queuearray.dequeue) queuearray is not defined
+			// console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined
+			f=queue.dequeue()
+			console.log(f)
+			console.log(typeof f)
+			g=f.pop()
+			e=g.clone
+			console.log(threeLetterWords.length)
+			for(var i=0;  i < threeLetterWords.length + 1 ; i++){
+			    console.log(i)
 			
-			console.log(e)
-			var errorcount = 0
+			    console.log(e)
+			    var errorcount = 0
 			    for(var j=0; j< 2; j++){
 				console.log(j)
 				//e=f.pop()
 				//console.log(f.pop())
 				//console.log(e)
 				
-				if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1)){
-				    errorcount=errorcount+1
-				}
+				   if(e.substring(j,j+1) != threeLetterWords[i].substring(j,j+1)){
+				       errorcount=errorcount+1
+				   }
 				   
 			}
-				if(errorcount == 1){
-				    f.push(e)
-				    console.log(f.push(threeLetterWords[i]))
-				    }
+			     if(errorcount == 1){
+				f.push(e)
+				console.log(f.push(threeLetterWords[i]))
+			     }
 		    }
 		
+		}
+              }
+		else{
+		     console.log("first word == last word")
+		    }
 	    }
-		}}
 
 	    if(FWwc == 4){
 		for(var i=0; i < fourLetterWords.length; i++){
@@ -130,9 +134,9 @@ WLF = function(form){
 
 		}
 		}
-		else{
-		    console.log("first word == last word")
-		    }
+	//	else{
+	//	   
+	//	    }
 	}
 	    }
 	else{

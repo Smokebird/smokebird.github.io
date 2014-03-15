@@ -91,6 +91,7 @@ WLF = function(form){
 		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined
 		    f=queue.dequeue()
 		    console.log(f)
+		    console.log(typeof f)
 		    console.log(threeLetterWords.length)
 		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			console.log(i)

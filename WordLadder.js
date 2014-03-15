@@ -33,15 +33,15 @@ QueueClass.prototype.dequeue = function(stack){
     return a
 }
 SetClass = function(){
-    setarray = new Array()
+   this setarray = new Array()
 }
 
 SetClass.prototype.add =function(words){
-    setarray.push(words)
+    this.setarray.push(words)
 }
 
 SetClass.prototype.contains = function(words){
-    if(words in setarray){
+    if(words in this.setarray){
 	return true
     }
     else{
@@ -63,7 +63,8 @@ WLF = function(form){
 	if(FWwc == numLetters){
 	    set = new SetClass()
 	    set.add(firstWord)
-	    console.log(setarray)
+	    console.log(this.setarray)
+	    console.log(set.this.setarray)
 	    console.log(set.setarray)
 	    console.log(SetClass.setarray)
 	    console.log(set.SetClass.setarray)

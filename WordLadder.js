@@ -81,7 +81,7 @@ WLF = function(form){
 		for(var c=0; c < queue.queuearray.length; c++){
 		    console.log(c)
 		    console.log(queue.dequeue)
-		    console.lgo(queue)
+		    console.log(queue)
 		  console.log(queue.queuearray.dequeue)
 		    //console.log(queuearray.dequeue) queuearray is not defined
 		   // console.log(this.queuearray.dequeue) cannot read property 'dequeue' of undefined

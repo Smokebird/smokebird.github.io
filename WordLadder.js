@@ -82,6 +82,7 @@ WLF = function(form){
 		    console.log(c)
 		    console.log(queue.queuearray.length)
 		    //console.log(queue.dequeue)
+		    
 		    console.log(queue)
 		    console.log(queue.queuearray)
 		  console.log(queue.queuearray.dequeue)
@@ -90,7 +91,7 @@ WLF = function(form){
 		    f=queue.dequeue
 		   // console.log(f)
 		    console.log(threeLetterWords.length)
-		    for(var i=0;  i < threeLetterWords.length; i++){
+		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			console.log(i)
 			    for(var j=0; j< 2; j++){
 				console.log(j)

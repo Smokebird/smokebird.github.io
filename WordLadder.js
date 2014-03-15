@@ -92,10 +92,11 @@ WLF = function(form){
 		    f=queue.dequeue()
 		    console.log(f)
 		    console.log(typeof f)
+		    e=f.pop()
 		    console.log(threeLetterWords.length)
 		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			console.log(i)
-			e=f.pop()
+			
 			console.log(e)
 			var errorcount = 0
 			    for(var j=0; j< 2; j++){

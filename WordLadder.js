@@ -73,7 +73,7 @@ WLF = function(form){
 	    stack.push(firstWord)
 	    console.log(stack.stackarray)
 	    queue = new QueueClass()
-	   queue.queue(stack)
+	   queue.queue(stack.stackarray)
 	    console.log(queue.queuearray)
 	    console.log(typeof  Queue.queuearray)
 	    if(FWwc ==3){

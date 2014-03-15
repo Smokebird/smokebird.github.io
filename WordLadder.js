@@ -75,7 +75,7 @@ WLF = function(form){
 	    queue = new QueueClass()
 	   queue.queue(stack.stackarray)
 	    console.log(queue.queuearray)
-	    console.log(typeof  Queue.queuearray)
+	    console.log(typeof  queue.queuearray)
 	    if(FWwc ==3){
 		console.log(typeof this.queuearray)
 		for(var c=0; c < Queue.queuearray.length; c++){

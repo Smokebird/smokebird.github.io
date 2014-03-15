@@ -118,7 +118,7 @@ WLF = function(form){
 		    }
 		
 	    }
-		}
+		}}
 
 	    if(FWwc == 4){
 		for(var i=0; i < fourLetterWords.length; i++){
@@ -129,10 +129,11 @@ WLF = function(form){
 		for(var i=o; i < fiveLetterWords.length; i++){
 
 		}
+		}
 		else{
 		    console.log("first word == last word")
 		    }
-		}
+	}
 	    }
 	else{
 	    console.log("words do not match number choosen")

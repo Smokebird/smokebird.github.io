@@ -13,7 +13,7 @@ StackClass.prototype.pop = function(){
     return x
 }
 
-StackClass.prototype.cole = function(stack){
+StackClass.prototype.clone = function(stack){
     clonestack = this.stackarray
     return clonestack
 }
@@ -77,7 +77,7 @@ WLF = function(form){
 	    console.log(queue.queuearray)
 	    console.log(typeof  queue.queuearray)
 	    if(FWwc ==3){
-		
+		if(firstWord != lastWord){
 		for(var c=0; c < queue.queuearray.length+1; c++){
 		    console.log(c)
 		    console.log(queue.queuearray.length)
@@ -92,7 +92,8 @@ WLF = function(form){
 		    f=queue.dequeue()
 		    console.log(f)
 		    console.log(typeof f)
-		    e=f.pop()
+		    g=f.pop()
+		    e=g.clone
 		    console.log(threeLetterWords.length)
 		    for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			console.log(i)
@@ -128,6 +129,9 @@ WLF = function(form){
 		for(var i=o; i < fiveLetterWords.length; i++){
 
 		}
+		else{
+		    console.log("first word == last word")
+		    }
 		}
 	    }
 	else{

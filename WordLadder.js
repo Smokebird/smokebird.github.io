@@ -134,10 +134,7 @@ WLF = function(form){
 
 		}
 		}
-	//	else{
-	//	   
-	//	    }
-	}
+	
 	    }
 	else{
 	    console.log("words do not match number choosen")

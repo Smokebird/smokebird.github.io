@@ -14,6 +14,7 @@ StackClass.prototype.pop = function(){
 }
 
 StackClass.prototype.clone = function(stack){
+    clonestack = new Array()
     clonestack = this.stackarray
     return clonestack
 }

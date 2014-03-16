@@ -92,8 +92,11 @@ WLF = function(form){
 			f=queue.dequeue()
 			console.log(f)
 			console.log(typeof f)
+			
 			g=f.pop()
+			console.log(g)
 			e=g.clone
+			console.log(e)
 			console.log(threeLetterWords.length)
 			for(var i=0;  i < threeLetterWords.length + 1 ; i++){
 			    console.log(i)
@@ -113,6 +116,7 @@ WLF = function(form){
 			}
 			     if(errorcount == 1){
 				f.push(e)
+				 
 				console.log(f.push(threeLetterWords[i]))
 			     }
 		    }

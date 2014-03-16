@@ -94,9 +94,9 @@ WLF = function(form){
 			console.log(f)
 			console.log(typeof f)
 			
-			g=f.pop()
-			console.log(g)
-			e=g.clone
+			e=f.pop()
+			//console.log(g)
+			//e=g.clone
 			console.log(e)
 			console.log(threeLetterWords.length)
 			for(var i=0;  i < threeLetterWords.length + 1 ; i++){

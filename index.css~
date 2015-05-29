@@ -1,5 +1,0 @@
-.ida{
-    columsn:200 px 2;
-    -webkit-columns:200px 2;
-    -moz-columns:100px 2;
-}

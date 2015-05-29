@@ -1,0 +1,5 @@
+# takes care of files with #
+*#
+
+# takes care of files with ~ at the end
+*~

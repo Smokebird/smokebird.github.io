@@ -19,6 +19,9 @@ function PrimeFactor(form){
 	Num = Num / 7;
 	Primes.push(7)
 	}
+    if (Num != 1 && Num % 1 == 0){
+	Primes.push(Num)
+	}
     document.getElementById("result").innerHTML = Primes;
 
 }

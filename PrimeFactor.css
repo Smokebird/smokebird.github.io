@@ -1,0 +1,21 @@
+
+body {
+    text-align: center;
+   
+}
+
+header{
+    background-color:#0066FF;
+    border-style: solid;
+}
+
+form{
+    margin-Top: 80px;
+    margin-bottom:35px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

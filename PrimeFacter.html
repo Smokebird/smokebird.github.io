@@ -2,17 +2,45 @@
 <html>
 
   <head>
-    <title>Prime Factor Finder</title>
+    <title>Prime Factor Calculator</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="PrimeFactor.js"></script>
+    <link rel="stylesheet" href="PrimeFactor.css">
+
   </head>
 
   <body>
-    <p>Prime</p>
+    <header>
+     <h1> Prime Factor Calculator</h1>
+    </header>
     <form id="form" METHOD="GET">
-      Enter a number: <input type="text" name='number'><br>
-      <input type="button" NAME="button"  value="caculate" onClick="PrimeFactor(this.form)">
+      Enter a number: <input type="number" name="number"><br>
+     Unorder List <input type="radio" name="output" value="unorderList"><br>
+     Unorder Table<input type="radio" name="output" value="unorderTable"><br>
+     Exponitional form<input type="radio" name="output" value="exponitionalForm"><br>
+     Factor Tree<input type="radio" name="output" value="factorTree"><br>
+      <input type="button" NAME="button"  value="caculate" onclick="PrimeFactor(this.form)">
     </form>
+    
     <div id="result"></div>
+    <!---<div ng-app=''>
+      <li ng-repeat="x in [0,1,2,3,4,5]">{{x}}</li>
+    </div>
+     this works --->
+    <!--- issue is with the div tag but why-->
+   <div ng-app="tableCreator"> 
+     <div ng-controller="table">
+      {{4*3}}
+      <table>
+	<tr><th>prime numbers</th></tr>
+	<tr ng-repeat="x in [1,2,3]">
+	  <td>{{x}}</td>
+	</tr>
+      </table>
+    </div>
+    </div>
+ 
   </body>
 
 </html>
